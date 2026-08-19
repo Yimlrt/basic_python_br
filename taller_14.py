@@ -1,14 +1,7 @@
-"""
-Tópico 14 - Taller práctico
-Basado en el repositorio: advaleraa/basic_python_br
-"""
 
-# =========================================================
-# 1. Crear variables curso, semestre, nombre
-# =========================================================
 curso = "Introducción a Python"
 semestre = "2026-2"
-nombre = "Estudiante"  # Cambia esto por tu nombre real
+nombre = "Yimileth"  
 
 print("=== Punto 1: Variables básicas ===")
 print(f"Curso: {curso}")
@@ -17,9 +10,7 @@ print(f"Nombre: {nombre}")
 print()
 
 
-# =========================================================
-# 2. Solicitar dos números y mostrar operaciones básicas
-# =========================================================
+
 print("=== Punto 2: Operaciones aritméticas ===")
 num1 = float(input("Ingrese el primer número: "))
 num2 = float(input("Ingrese el segundo número: "))
@@ -42,9 +33,7 @@ print(f"Potencia: {potencia}")
 print()
 
 
-# =========================================================
-# 3. Solicitar un número entero y validar si es par o impar
-# =========================================================
+
 print("=== Punto 3: Par o impar ===")
 numero = int(input("Ingrese un número entero: "))
 
@@ -56,9 +45,7 @@ else:
 print()
 
 
-# =========================================================
-# 4. Ciclo for del 1 al 20, indicando pares e impares
-# =========================================================
+
 print("=== Punto 4: Números del 1 al 20 ===")
 for i in range(1, 21):
     if i % 2 == 0:
@@ -68,9 +55,7 @@ for i in range(1, 21):
 print()
 
 
-# =========================================================
-# 5. Función multiplicar(a, b)
-# =========================================================
+
 print("=== Punto 5: Función multiplicar ===")
 
 def multiplicar(a, b):
