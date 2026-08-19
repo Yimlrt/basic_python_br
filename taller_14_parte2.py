@@ -1,11 +1,6 @@
-"""
-Tópico 14 - Taller práctico (Continuación: ejercicios 6 al 10)
-Basado en el repositorio: advaleraa/basic_python_br
-"""
 
-# =========================================================
 # 6. Diccionario persona con nombre, edad, carrera y ciudad
-# =========================================================
+
 print("=== Punto 6: Diccionario persona ===")
 
 persona = {
@@ -20,9 +15,8 @@ print(persona)
 print()
 
 
-# =========================================================
 # 7. Recorrer el diccionario mostrando claves, valores y pares
-# =========================================================
+
 print("=== Punto 7: Recorrer el diccionario ===")
 
 print("--- Claves ---")
@@ -39,10 +33,9 @@ for clave, valor in persona.items():
 print()
 
 
-# =========================================================
+
 # 8. Clase Producto con nombre, precio, cantidad
-#    y método para calcular el valor total del inventario
-# =========================================================
+
 print("=== Punto 8: Clase Producto ===")
 
 class Producto:
@@ -66,9 +59,8 @@ print(f"Valor total del inventario de {producto2.nombre}: {producto2.valor_total
 print()
 
 
-# =========================================================
 # 9. División con try/except (división por cero o entrada inválida)
-# =========================================================
+
 print("=== Punto 9: División con manejo de errores ===")
 
 try:
@@ -83,10 +75,8 @@ except ValueError:
 print()
 
 
-# =========================================================
-# 10. Lista del 1 al 10: lista completa, primer y último elemento,
-#     y cantidad de elementos
-# =========================================================
+
+# 10. Lista del 1 al 10: lista completa, primer y último elemento,y cantidad de elementos
 print("=== Punto 10: Lista del 1 al 10 ===")
 
 numeros = list(range(1, 11))
